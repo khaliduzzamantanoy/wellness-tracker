@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  background: linear-gradient(120deg, #8b5cf6 0%, #6366f1 50%, #0ea5e9 100%);
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glassy card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2.5rem;
+  margin: 2rem 0;
+  transition: box-shadow 0.3s;
+}
+
+.glass-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(31, 38, 135, 0.3);
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease 0.2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Header styles */
+.navbar-transparent {
+  background-color: transparent !important;
+  border: none;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .nav-link {
+  color: white !important;
+}
+
+.navbar-transparent .btn-get-started {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.navbar-transparent .btn-get-started:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Add a small padding to the top of the body to account for the fixed header */
+body {
+  padding-top: 56px; /* Adjust if your header has a different height */
+}
+.glass-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background: rgba(30, 41, 59, 0.35);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 24px 0 rgba(30, 41, 59, 0.13);
+  transition: background 0.3s;
+}
+.main-content {
+  padding-top: 72px; /* Adjust to your header's height */
+}
+.glass-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  background: rgba(30, 41, 59, 0.6); /* stronger opacity for stronger blur */
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 24px 0 rgba(30, 41, 59, 0.3);
+  transition: background 0.3s ease;
+}
+.fixed-glass-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  background: rgba(30, 41, 59, 0.35); /* semi-transparent dark */
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 24px rgba(30, 41, 59, 0.3);
+  transition: background 0.3s ease;
+}
