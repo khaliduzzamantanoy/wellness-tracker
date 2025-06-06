@@ -17,7 +17,7 @@
 
 *Transform your productivity with intelligent time management, fitness tracking, and wellness analytics* ✨
 
-[🚀 Quick Start](#-getting-started) • [✨ Features](#-features) • [📱 Screenshots](#-screenshots) • [🛠️ Tech Stack](#-tech-stack) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-getting-started) • [✨ Features](#-features)  • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -274,59 +274,7 @@ npm run dev
 | ⚙️ **Backend API** | `http://localhost:5000` | Express server |
 | 📊 **API Docs** | `http://localhost:5000/api-docs` | Swagger documentation |
 
----
 
-## 📱 Screenshots
-
-<div align="center">
-
-### 🖥️ **Desktop Experience**
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x300/61DAFB/FFFFFF?text=Dashboard" alt="Dashboard" width="400"/>
-<br><strong>📊 Dashboard Overview</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x300/FF6B6B/FFFFFF?text=Timer+Session" alt="Timer" width="400"/>
-<br><strong>⏱️ Active Timer Session</strong>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x300/4ECDC4/FFFFFF?text=Exercise+Routine" alt="Exercise" width="400"/>
-<br><strong>🏋️‍♀️ Exercise Routines</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x300/45B7D1/FFFFFF?text=Progress+Analytics" alt="Analytics" width="400"/>
-<br><strong>📈 Progress Analytics</strong>
-</td>
-</tr>
-</table>
-
-### 📱 **Mobile Experience**
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/200x400/FF6B6B/FFFFFF?text=Mobile+Timer" alt="Mobile Timer" width="200"/>
-<br><strong>📱 Mobile Timer</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/200x400/4ECDC4/FFFFFF?text=Mobile+Menu" alt="Mobile Menu" width="200"/>
-<br><strong>🍔 Hamburger Menu</strong>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/200x400/45B7D1/FFFFFF?text=Mobile+Stats" alt="Mobile Stats" width="200"/>
-<br><strong>📊 Mobile Stats</strong>
-</td>
-</tr>
-</table>
-
-</div>
-
----
 
 ## 🎯 Usage Guide
 
