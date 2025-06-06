@@ -728,13 +728,6 @@ This project is licensed under the **MIT License** 📜
 
 *Wellness Tracker - Where productivity meets wellness* 🚀
 
----
-
-### 🔗 **Connect With Us**
-
-[![Website](https://img.shields.io/badge/Website-wellness--tracker.com-blue?style=flat-square&logo=web)](https://wellness-tracker.com)
-[![Twitter](https://img.shields.io/badge/Twitter-@wellness__tracker-blue?style=flat-square&logo=twitter)](https://twitter.com/wellness_tracker)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-wellness--tracker-blue?style=flat-square&logo=linkedin)](https://linkedin.com/company/wellness-tracker)
 
 **⚡ Fuel your productivity, energize your wellness journey!** 
 
