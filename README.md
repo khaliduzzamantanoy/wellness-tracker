@@ -696,9 +696,7 @@ This project is licensed under the **MIT License** 📜
 | 📞 Support Channel | 🔗 Link | 📝 Description |
 |------------------|---------|----------------|
 | 🐛 **Bug Reports** | [Issues](https://github.com/khaliduzzamantanoy/wellness-tracker/issues) | Report bugs and technical issues |
-| 💡 **Feature Requests** | [Discussions](https://github.com/khaliduzzamantanoy/wellness-tracker/discussions) | Suggest new features |
-| 📚 **Documentation** | [Wiki](https://github.com/khaliduzzamantanoy/wellness-tracker/wiki) | Comprehensive guides |
-| 💬 **Community Chat** | [Discord](https://discord.gg/wellness-tracker) | Real-time community support |
+| 💡 **Feature Requests** | [Discussions](https://github.com/khaliduzzamantanoy/wellness-tracker/discussions) | Suggest new features
 
 ### 🌟 **Show Your Support**
 
