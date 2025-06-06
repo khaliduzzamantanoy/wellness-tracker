@@ -661,16 +661,6 @@ Thanks to all our amazing contributors who make this project possible!
 
 ## 🚀 Roadmap
 
-### 📅 **Upcoming Features**
-
-| 🎯 Feature | 📅 Timeline | 🏷️ Priority | 📋 Status |
-|-----------|-------------|-------------|-----------|
-| 🌙 Dark Mode Theme | Q2 2024 | High | 🔄 In Progress |
-| 📱 Mobile App (React Native) | Q3 2024 | High | 📋 Planned |
-| 🤝 Social Features & Groups | Q3 2024 | Medium | 📋 Planned |
-| 🧠 AI-Powered Recommendations | Q4 2024 | Medium | 💡 Research |
-| 🎵 Spotify Integration | Q4 2024 | Low | 💡 Research |
-| 🏆 Achievement System | Q1 2025 | Medium | 📋 Planned |
 
 ### 🎯 **Long-term Vision**
 - 🌍 Multi-language support
