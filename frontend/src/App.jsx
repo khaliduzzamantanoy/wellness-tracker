@@ -11,7 +11,7 @@ export default function App() {
 
   useEffect(() => {
     // Set base URL once when app loads
-    axios.defaults.baseURL = "http://localhost:5000/api";
+    axios.defaults.baseURL = "https://server-v12.vercel.app/api";
 
     const storedUser = localStorage.getItem("user");
     const token = localStorage.getItem("token");
